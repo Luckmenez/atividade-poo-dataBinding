@@ -1,0 +1,7 @@
+.container{
+  max-width: 18rem;
+}
+
+.container ul{
+  list-style-type: none;
+}

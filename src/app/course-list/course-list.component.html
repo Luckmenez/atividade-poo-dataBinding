@@ -1,0 +1,12 @@
+
+<div class="container">
+  <div class="text-center mb-3 mt-5">
+    <h5 class="text-muted">Lista de Cursos:</h5>
+  </div>
+  <app-course
+  *ngFor="let course of course"
+  [courseName]="course.courseName"
+  [duration]="course.duration">
+</app-course>
+
+</div>
