@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row mt-3">
+    <label for="courseName">Nome:</label>
+    <input class="col-12" type="text" #inputName id="inputName">
+  </div>
+
+  <div class="row">
+    <label for="inputDuration">Duração</label>
+    <input class="col-12" type="text" #inputDuration id="inputDuration">
+  </div>
+  <button class="btn btn-primary btn-block mt-2" (click)="createCourse(inputName.value, inputDuration.value)" type="button">Criar novo curso</button>
+</div>

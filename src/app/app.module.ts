@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
 import { CourseListComponent } from './course-list/course-list.component';
+import { AddNewCourseComponent } from './add-new-course/add-new-course.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseComponent,
-    CourseListComponent
+    CourseListComponent,
+    AddNewCourseComponent
   ],
   imports: [
     BrowserModule

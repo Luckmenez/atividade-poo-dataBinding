@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-course-list',
@@ -7,24 +7,26 @@ import { Component } from '@angular/core';
 })
 export class CourseListComponent {
 
-  course = [
-    {
-      courseName: 'Angular essencial',
-      duration:  20
-    },
-    {
-      courseName: 'Princípios do ReactJS',
-      duration: 30
-    },
-    {
-      courseName:  'Vuejs do 0 ao domínio',
-      duration:  40
-    },
-    {
-      courseName: 'Tudo sobre React Native',
-      duration:  50
-    }
-];
+  @Input() course;
+
+//   course = [
+//     {
+//       courseName: 'Angular essencial',
+//       duration:  20
+//     },
+//     {
+//       courseName: 'Princípios do ReactJS',
+//       duration: 30
+//     },
+//     {
+//       courseName:  'Vuejs do 0 ao domínio',
+//       duration:  40
+//     },
+//     {
+//       courseName: 'Tudo sobre React Native',
+//       duration:  50
+//     }
+// ];
 
 
 }
